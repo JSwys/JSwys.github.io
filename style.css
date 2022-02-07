@@ -1,0 +1,103 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    margin-top: 2em;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+header {
+    padding: 1em 0;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+h2,
+h3 {
+    color: rgb(82, 91, 100);
+}
+
+header span {
+    font-size: 1.25em;
+    color: #999;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    background-color: grey;
+
+}
+
+nav a {
+    padding: .5em 1.5em;
+    text-decoration: none;
+    color: white
+}
+
+nav a:hover {
+    background-color: #444;
+}
+
+section {
+    margin: 1em 0;
+    padding-top: 3em;
+    min-height: 10em;
+}
+
+section > p {
+    margin: 1em 0;
+}
+
+section ul {
+    padding-left: 1.5em;
+}
+
+#projectSnapshots {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    column-gap: 1em;
+
+}
+
+#projectSnapshots article {
+    background-color: gray;
+    padding: 1em;
+}
+
+#projectSnapshots article image {
+    width: 100%;
+    border: 1px solid black
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
