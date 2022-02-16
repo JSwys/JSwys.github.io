@@ -36,24 +36,6 @@ nav a:hover {
     background-color:rgba(30, 143, 255, 0.151);
 }
 
-body {
-    background: linear-gradient(-45deg, #97b1e9, #3f81fd, #9f9eff, #a767f0);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 header {
     background-image: url(./images/columbus-skyline.jpg);
     background-repeat: no-repeat;
