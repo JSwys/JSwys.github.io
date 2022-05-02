@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe Swysgood Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts/Nunito-VariableFont_wght.ttf">
 </head>
 
 <nav>
@@ -17,9 +18,9 @@
 <body>
 
     <header>
-        <div id = "name">
-            <h1>Joe Swysgood</h1>
-            <span>Software Developer</span>
+        <div id = "me">
+            <h1 class="name">Joe Swysgood</h1>
+            <span class="title">Software Developer</span>
         </div>  
     </header>
 
@@ -30,18 +31,31 @@
         </div>
 
         <div id="aboutMe">
-            <h2>About Me</h2>
-            <p>I was born in Columbus and grew up in central Ohio. I recently lived in Austin, Texas, where I worked mostly in construction and fabrication. I moved back to Columbus in March of 2021 and have been working as a maintenance technician at an industrial artist studio complex in Franklinton. In my free time I love reading, boardgames, yoga and meditation, as well as doing odd construction and landscaping jobs for friends when requested. I've always liked working with my hands. There is something very satisfying seeing something you've built and knowing it works and was done well. However, I was very interested in computers as a kid, and recently I've felt that I may have missed an opportunity to pursue that. So I attended We Can Code IT's bootcamp in Columbus in order to help break into the software development field.</p>
+            <h2 class="about_me">About Me</h2>
+            <p>I was born in Columbus and grew up in central Ohio. I recently lived in Austin, Texas, where I worked mostly in construction and fabrication. I moved back to Columbus in March of 2021 and have been working as a maintenance technician at an industrial artist studio complex in Franklinton. In my free time I love reading, board games, yoga and meditation, as well as doing odd construction and landscaping jobs for friends when requested. I've always liked working with my hands. There is something very satisfying seeing something you've built and knowing it works and was done well. However, I was very interested in computers as a kid, and recently I've felt that I may have missed an opportunity to pursue that. So I attended We Can Code IT's bootcamp in Columbus in order to help break into the software development field.</p>
             <span>Skills</span>
-            <p id="skills">Java • JavaScript • HTML • CSS  • Spring MVC • REST API • Object Oriented Programming • Test Driven Development • Git • Agile</p>
+            <p id="skills">Java • JavaScript • HTML • CSS  • Spring MVC • SQL • REST APIs • JSON • Object Oriented Programming • Test Driven Development • Relational Databases • Git • Agile</p>
         </div>
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <p>Please take a look at some of the things I've been working on. These can all be found on my <a href="https://github.com/JSwys">GitHub</a>.</p>
+            <p>Please take a look at some of the things I've been working on. These can all be found on my <a href="https://github.com/JSwys" target="_blank">GitHub</a>.</p>
             <div id="projectSnapshots">
                 <article>
-                    <h3><a href="https://github.com/2022-Spring-Cohort/donut-maker-JSwys">Donut Maker</a></h3>
+                    <h3><a href="https://github.com/JSwys/album-songs-api-radio-heads" target="_blank">Album Review Site</a></h3>
+                    <img class="project_thumbnail" src="./images/JukeBox.png">
+                    <p>Working in a small team, built a web application using Java, Spring MVC, Thymeleaf, HTML and CSS. Allows users to navigate between albums, submit reviews, add songs, and create hashtags.
+                        <ul class ="skills_list">
+                            <li>Java</li>
+                            <li>Spring MVC</li>
+                            <li>Thymeleaf</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </p>
+                </article>
+                <article>
+                    <h3><a href="https://github.com/JSwys/donut-maker-JSwys" target="_blank">Donut Maker</a></h3>
                     <img class="project_thumbnail" src="./images/donutClicker.png">
                     <p>Designed a website-based game using JavaScript, HTML and CSS that tracks how many times a user has clicked an image of a donut and allows for purchasing upgrades that will click for them automatically each second as well as multiply their clicks. Includes animations of falling donuts that increase in number as the user progresses.
                         <ul class="skills_list">
@@ -52,21 +66,15 @@
                     </p>
                 </article>
                 <article>
-                    <h3><a href="https://github.com/2022-Spring-Cohort/review-site-alpha-three">Review Site</a></h3>
-                    <img class="project_thumbnail" src="./images/reviewSite.png">
-                    <p>Working in a small team, built a web application using Java, Spring MVC, Thymeleaf, HTML and CSS. Allows users to navigate between video game consoles, submit reviews, create new hashtags and sort consoles by associated hashtags.
-                        <ul class ="skills_list">
-                            <li>Spring MVC</li><li>Java</li><li>Thymeleaf</li><li>HTML/CSS</li>
-                        </ul>
-                    </p>
-                </article>
-                <article>
-                    <h3><a href="https://github.com/2022-Spring-Cohort/virtual-pet-JSwys">VirtualPet</a></h3>
-                    <img class="project_thumbnail" src="./images/VPetScreen.png">
-                    <p>Created a console-based application using Java which allows users to create and interact with a collection of virtual pets. Pets have different types which require different methods of care to stay healthy. Users can adopt pets and view the corresponding ASCII art.</p>
+                    <h3><a href="https://github.com/JSwys/final-project-spring-2022-reflect" target="_blank">Reflect</a></h3>
+                    <img class="project_thumbnail" src="./images/Reflect1.png">
+                    <p>Developed a single page application that allows for creating users, choosing a meditation timer with ambient sounds, and logging progress after each session. Contains a resource section with collections of links to external articles on meditation and mental health.</p>
                     <ul class="skills_list">
                         <li>Java</li>
-                        <li>OOP</li>
+                        <li>Spring MVC</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
                     </ul>
                 </article>
             </div>
@@ -78,7 +86,7 @@
             <ul>
                 <li>jswysgood@gmail.com</li>
                 <li>
-                    <a href="https://www.linkedin.com/in/joe-swysgood">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/joe-swysgood" target="_blank">LinkedIn</a>
                 </li>
             </ul>
         </section>
